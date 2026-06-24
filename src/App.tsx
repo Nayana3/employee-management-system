@@ -18,12 +18,6 @@ function App() {
     <Route path="*" element={<NotApage />} /> 
     </Route>
   </Routes>
-  
-  <nav>
-    <Link to="/">Login</Link> 
-    <Link to="/dashboard">Dashboard</Link> 
-    <Link to="/employees">Employees</Link> 
-  </nav>
   </>
   );
 }

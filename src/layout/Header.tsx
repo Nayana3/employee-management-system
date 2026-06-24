@@ -1,6 +1,14 @@
+import { AppBar, Toolbar, Typography } from "@mui/material";
+
 const Header =() =>{
     return(<>
-    <h1>Employee Management System</h1>
+    <AppBar position="static">
+        <Toolbar variant="dense"> 
+            <Typography variant="h6">
+                Employee Management System
+            </Typography>
+        </Toolbar>
+    </AppBar>
     </>)
 }
 
